@@ -4,10 +4,6 @@ body {
     color: #fff;
     overflow: hidden;
     background: #000;
-		/*transform: scaleX(-1);
-		-webkit-filter: blur(5px);
-    filter: blur(1px);*/
-
 }
 
 a {
@@ -26,9 +22,8 @@ a {
 #wrap {
     position: relative;
     top: 0;
-    -webkit-transition: top 1.4s cubic-bezier(.49, .22, .52, 1);
-    -webkit-transition: top 1.4s cubic-bezier(.49, .22, .52, 1.35);
-    transition: top 1.4s cubic-bezier(.49, .22, .52, 1.35);
+
+    transition:1.4s ease;
 		/*-webkit-filter: invert(100%);
 	 filter: invert(30%);*/
 }
@@ -90,18 +85,10 @@ ul {
 
 #slide1, #slide2, #slide3 {
     /*height: 1000px;*/
-    -webkit-transition: background-position 1.4s cubic-bezier(.49, .22, .52, 1);
-    -webkit-transition: background-position 1.4s cubic-bezier(.49, .22, .52, 1.35);
-    transition: background-position 1.4s cubic-bezier(.49, .22, .52, 1.35);
+
+    transition:1.4s ease;
 }
 
-#slide1 {
-    /*height: 700px;*/
-    -webkit-transition: background-position 1.4s cubic-bezier(.49, .22, .52, 1);
-    -webkit-transition: background-position 1.4s cubic-bezier(.49, .22, .52, 1.35);
-    transition: background-position 1.4s cubic-bezier(.49, .22, .52, 1.35);
-    display: flex;
-}
 
 
 /*
@@ -116,20 +103,20 @@ ul {
 
 #slide4 {
     /*height: 700px;*/
-    -webkit-transition: background-position 1.4s cubic-bezier(.49, .22, .52, 1);
-    -webkit-transition: background-position 1.4s cubic-bezier(.49, .22, .52, 1.35);
-    transition: background-position 1.4s cubic-bezier(.49, .22, .52, 1.35);
+    /*-webkit-transition: background-position 1.4s cubic-bezier(.49, .22, .52, 1);
+    -webkit-transition: background-position 1.4s cubic-bezier(.49, .22, .52, 1.35);*/
+    transition: 1.4s ease;
 }
 
 #slide1 {
-    background: url(images/floating-frames-1347503189_org.jpg) no-repeat;
+    background: url("images/a.jpg") no-repeat;
     background-size: cover;
     background-blend-mode: soft-light;
     background-color: #333;
 }
 
 #slide2 {
-    background: url(images/fog-01.jpg) center 0 no-repeat fixed;
+    background: url("images/fog-01.jpg") center 0 no-repeat fixed;
     background-size: cover;
 		background-blend-mode: soft-light;
 		background-color: #333;
@@ -257,7 +244,7 @@ h3 {
 #s1:target~#wrap #nav li:first-child a {
     text-shadow: 0 0 5px #a94442, 0 0 5px #a94442, 0 0 5px #a94442, 0 0 5px #a94442;
 }
-
+/*
 #s1:target~#wrap #slide1 {
     background-position: 50% 0%;
 }
@@ -268,7 +255,7 @@ h3 {
 
 #s1:target~#wrap #slide3 {
     background-position: 50% -60%;
-}
+}*/
 
 #s2:target~#wrap {
     top: -100vh;
@@ -277,7 +264,7 @@ h3 {
 #s2:target~#wrap #nav li:first-child+li a, h4 {
     text-shadow: 0 0 5px #a94442, 0 0 5px #a94442, 0 0 5px #a94442, 0 0 5px #a94442;
 }
-
+/*
 #s2:target~#wrap #slide1 {
     background-position: 50% 36%;
 }
@@ -288,7 +275,7 @@ h3 {
 
 #s2:target~#wrap #slide3 {
     background-position: 50% -30%;
-}
+}*/
 
 #s3:target~#wrap {
     top: -200vh;
@@ -298,7 +285,7 @@ h3 {
     text-shadow: 0 0 5px #a94442, 0 0 5px #a94442, 0 0 5px #a94442, 0 0 5px #a94442;
 }
 
-#s3:target~#wrap #slide1 {
+/*#s3:target~#wrap #slide1 {
     background-position: 50% 60%;
 }
 
@@ -308,13 +295,13 @@ h3 {
 
 #s3:target~#wrap #slide3 {
     background-position: 50% 0%;
-}
+}*/
 
 #s4:target~#wrap {
     top: -300vh;
 }
 
-#s4:target~#wrap #slide1 {
+/*#s4:target~#wrap #slide1 {
     background-position: 50% 60%;
 }
 
@@ -324,7 +311,7 @@ h3 {
 
 #s4:target~#wrap #slide3 {
     background-position: 50% 0%;
-}
+}*/
 
 #s4:target~#wrap #nav li:nth-child(4) a {
     text-shadow: 0 0 5px #a94442, 0 0 5px #a94442, 0 0 5px #a94442, 0 0 5px #a94442;
@@ -334,7 +321,7 @@ h3 {
     top: -400vh;
 }
 
-#s5:target~#wrap #slide1 {
+/*#s5:target~#wrap #slide1 {
     background-position: 50% 60%;
 }
 
@@ -344,7 +331,7 @@ h3 {
 
 #s5:target~#wrap #slide3 {
     background-position: 50% 0%;
-}
+}*/
 
 #s5:target~#wrap #nav li:last-child a {
     text-shadow: 0 0 5px #a94442, 0 0 5px #a94442, 0 0 5px #a94442, 0 0 5px #a94442;

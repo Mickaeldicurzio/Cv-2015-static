@@ -348,6 +348,9 @@ h3 {
 #slide2, #slide1, #slide3, #slide4, #slide5 {
     width: 100vw;
     height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
 }
 
 
